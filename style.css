@@ -1,0 +1,83 @@
+/* Universal styles */
+* {
+    box-sizing: border-box;
+}
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c7c0c0;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #d91d1d;}
+
+ul.topnav li a.active {
+    background-color: #d91d1d;}
+
+ul.topnav li.right {
+    float: right;
+}
+
+/* Image floating */
+img {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d91d1d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type=submit]:hover {
+    background-color: #d91d1d;
+}
+
+/* Style the container for the form */
+.container {
+    border-radius: 5px;
+    border-color: #d91d1d;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 600px;
+}
